@@ -151,7 +151,7 @@
     padding-left: 0;
 }
 
-.fa-ul > li {
+.fa-ul> li {
     position: relative;
 }
 
@@ -6032,7 +6032,7 @@
 }
 
 /*!
- * css
+ *  css
  */
 .d-inline {
     display: inline;
@@ -6138,8 +6138,8 @@ body {
     padding: 10px 40px;
     min-width: 120px;
     align-items: center;
-    color: #fff;
-    background-color: var(--main-color-1);
+    background-color:rgb(94,59,238);
+    color: rgb(255, 255, 255);
 }
 
 .btn.disabled,
@@ -7179,7 +7179,7 @@ label {
     letter-spacing: 2.8px;
 }
 
-.amp-form-submit-success > .form-inputs {
+.amp-form-submit-success> .form-inputs {
     display: none;
 }
 
@@ -7249,7 +7249,7 @@ amp-user-notification.cookie-notification {
     z-index: 10000;
 }
 
-amp-user-notification.cookie-notification > button {
+amp-user-notification.cookie-notification> button {
     min-width: 80px;
 }
 
@@ -7676,7 +7676,7 @@ header {
 #hamb7 span {
     display: block;
     position: absolute;
-    height: 5px;
+    height: 2px;
     width: 100%;
     background: #48525c;
     border-radius: 9px;
@@ -7720,7 +7720,7 @@ header {
     transition: all 0.3s ease;
 }
 
-#nv_m.nw_actv > .bg_tm {
+#nv_m.nw_actv> .bg_tm {
     display: block;
 }
 
@@ -7844,7 +7844,7 @@ header {
     .nav-abso .nm_c div#hamb7.mn_cls {
         position: fixed;
         left: auto;
-        right: 33px;
+        right: 10px;  
         top: 5px;
     }
 
@@ -8575,7 +8575,7 @@ button {
         height: 40px;
     }
 
-    #nv_m .nv_lst.show_more > a {
+    #nv_m .nv_lst.show_more> a {
         display: block;
     }
 
@@ -8607,7 +8607,7 @@ button {
 }
 
 .nm_lg,
-.nm_lg > a {
+.nm_lg> a {
     min-width: 165px;
 }
 
@@ -9095,13 +9095,13 @@ section[amp-fx="fly-in-bottom"] {
     width: 95%;
 }
 
-.consentPopup > *,
-.consentPopup > h2 {
+.consentPopup> *,
+.consentPopup> h2 {
     margin: 0;
     margin-bottom: 1rem;
 }
 
-.consentPopup > button {
+.consentPopup> button {
     margin-right: 1rem;
 }
 
@@ -9136,7 +9136,7 @@ section[amp-fx="fly-in-bottom"] {
     }
 }
 
-#post-consent-ui > button {
+#post-consent-ui> button {
     padding: 0.5rem;
 }
 
@@ -11175,7 +11175,7 @@ amp-selector [option][selected] {
     font-weight: 400;
 }
 
-.counter > span {
+.counter> span {
     display: flex;
     z-index: 1;
     flex-direction: column;
@@ -11184,7 +11184,6 @@ amp-selector [option][selected] {
     transition: transform 2s ease;
     transform: translateY(0);
 }
-
 
 .blackdots {
     text-align: center;
@@ -11231,19 +11230,19 @@ amp-selector [option][selected] {
     --text-font: 'roboto', sans-serif;
     --main-btn-radius: 30px;
     --title-1-desktop: 60px 'Public Sans', sans-serif;
-    --title-1-mobile: 25px 'Public Sans', sans-serif;
+    --title-1-mobile: 35px 'Public Sans', sans-serif;
     --title-2-desktop: 37px 'Public Sans', sans-serif;
     --title-2-mobile: 28px 'Public Sans', sans-serif;
-    --title-3-desktop: 22px 'Public Sans', sans-serif;
+    --title-3-desktop: 18px 'Public Sans', sans-serif;
     --title-3-mobile: 22px 'Public Sans', sans-serif;
-    --title-4-desktop: 18px 'Public Sans', sans-serif;
-    --title-4-mobile: 18px 'Public Sans', sans-serif;
-    --text-1-desktop: 17px 'Inter', sans-serif;
-    --text-1-mobile: 17px 'Inter', sans-serif;
+    --title-4-desktop: 15px 'Public Sans', sans-serif;
+    --title-4-mobile: 15px 'Public Sans', sans-serif;
+    --text-1-desktop: 16px 'Inter', sans-serif;
+    --text-1-mobile: 18px 'Inter', sans-serif;
     --text-2-desktop: 14px 'Inter', sans-serif;
-    --text-2-mobile: 14px 'Inter', sans-serif;
-    --text-3-desktop: 15px 'Inter', sans-serif;
-    --text-3-mobile: 15px 'Inter', sans-serif;
+    --text-2-mobile: 16px 'Inter', sans-serif;
+    --text-3-desktop: 16px 'Inter', sans-serif;
+    --text-3-mobile: 18px 'Inter', sans-serif;
     --text-4-desktop: 13px 'Inter', sans-serif;
     --text-4-mobile: 13px 'Inter', sans-serif;
     font-size: var(--font-size);
@@ -11263,29 +11262,36 @@ b,h1,h2,h3,h4,h5,h6,li,p {
 a,span {
     margin: 5px auto
 }
-       
-         /*** end css site ***/ 
+
+
+.btn{font-weight: 500;}
+
+        /*** end css site ***/ 
         
         
         /** start your css here **/ 
-
 
 
 @media only screen and (min-width: 768px) {
 
     .pad70-desk-20-mob {
         padding: 70px;}
+    
+        .padd0m10 {padding: 0px}
+        .padd10m0 {padding: 10px}
+        .padd25m10 {padding: 25px}
    
 }
 
 @media only screen and (max-width: 767px) {
     .pad70-desk-20-mob {
         padding: 40px 10px;}
+    
+        .padd0m10 {padding: 10px}
+        .padd10m0 {padding: 0px}
+        .padd25m10 {padding: 10px}
    
 }
-
-
-
 
         /** end your css here **/</style>
   
@@ -11310,66 +11316,75 @@ a,span {
     </div>
     <!-- css hack -->
     <header data-mydop-display-name="Navbar" class="nav-abso nav-1" style="background-color: var(--navbar-bg-color); padding: 5px 5%; transform: none;" id="i05421460295656502">
-      <div class="header-info" data-mydop-display-name="header info" data-mydop-background-color="" style="background-color: rgb(255, 255, 255);">
-        <div style="padding:2px 5%;">
-          <div class="row">
-            <div class="col-12" style="justify-content:center; align-items: center; flex-wrap: wrap; height: auto;padding:0;">
-              <a data-mydop-display-name="Link" data-mydop-text="" data-mydop-link="" href="#" class="display-text-4" style="color: rgb(51, 51, 51); cursor: pointer; transition: all 0.2s ease 0s; margin: 5px 10px; letter-spacing: 2px;"></a>
-              <a data-mydop-display-name="Link" data-mydop-text="" data-mydop-link="" href="#" class="display-text-4" style="color: rgb(51, 51, 51); cursor: pointer; transition: all 0.2s ease 0s; margin: 5px 10px; letter-spacing: 2px;"></a>
+        <div class="header-info" data-mydop-display-name="header info" style="background-color: rgb(255, 255, 255);">
+          <div style="padding:2px 5%;">
+            <div class="row">
+              <div class="col-12" style="justify-content:center; align-items: center; flex-wrap: wrap; height: auto;padding:0;">
+                <a data-mydop-display-name="Link"  data-mydop-link="" href="#" class="display-text-4" style="color: rgb(51, 51, 51); cursor: pointer; transition: all 0.2s ease 0s; margin: 5px 10px; letter-spacing: 2px;"></a>
+                <a data-mydop-display-name="Link"  data-mydop-link="" href="#" class="display-text-4" style="color: rgb(51, 51, 51); cursor: pointer; transition: all 0.2s ease 0s; margin: 5px 10px; letter-spacing: 2px;"></a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div id="custom-header" data-mydop-display-name="Second Navbar Color" data-mydop-background-color="" style="background-color: rgb(255, 255, 255); display: none;" class="container"></div>
-      <div class="nm_c" id="nav-wrapper">
-        <div class="nm_lg">
-          <a href="/" style="height:63px;margin:0;">
-            <amp-img data-mydop-display-name="Image" data-mydop-image="" src="https://placehold.co/200x64/EEE/31343C" width="200" height="64" layout="intrinsic" alt="logo"></amp-img>
-          </a>
-        </div>
-        <div class="ham_w">
-          <div id="hamb7" aria-label="menu icon" tabindex="0" role="button" on="tap:hamb7.toggleClass(class='mn_cls'),nv_m.toggleClass(class='nw_actv')">
-            <span style="background-color: rgb(15, 18, 33);"></span>
-            <span style="background-color: rgb(15, 18, 33);"></span>
-            <span style="background-color: rgb(15, 18, 33);"></span>
+        <div id="custom-header" data-mydop-display-name="Second Navbar Color" style="background-color: rgb(255, 255, 255); display: none;" class="container"></div>
+        <div class="nm_c" id="nav-wrapper">
+          <div class="nm_lg">
+            <a href="/portfolio/" style="height:63px;margin:0;">
+              <amp-img data-mydop-display-name="Image" data-mydop-image="" src="https://raw.githubusercontent.com/teaasatiani/portfolio/main/images/tea-asatiani.svg" width="200" height="64" layout="intrinsic" alt="Tea Asatiani"></amp-img>
+            </a>
           </div>
-        </div>
-        <div id="nv_m_c">
-          <div id="nv_m">
-            <div class="bg_tm" tabindex="0" role="button" on="tap:hamb7.toggleClass(class='mn_cls'),nv_m.toggleClass(class='nw_actv')"></div>
-            <div id="smart_list" class="nv_lst">
-                <a href="/portfolio/" data-mydop-item="" data-mydop-display-name="Link" data-mydop-text="" data-mydop-link="" class="display-text-2" style="color: rgb(15, 18, 33);">Portfolio</a>
-                <a href="/projects/" data-mydop-item="" data-mydop-display-name="Link" data-mydop-text="" data-mydop-link="" class="display-text-2" style="color: rgb(15, 18, 33);">Projects</a>
-              <a href="/mydop-files/Screen Shot 2024-01-22 at 11.39.51 AM.png" target="_blank" data-mydop-item="" data-mydop-display-name="Link" data-mydop-text="" data-mydop-link="" class="display-text-2" style="color: rgb(15, 18, 33);">Resume</a>
-              <a href="/contact/" data-mydop-item="" data-mydop-display-name="Link" data-mydop-text="" data-mydop-link="" class="display-text-2" style="color: rgb(15, 18, 33);">Contact</a>
-              <a href="https://www.linkedin.com/in/tea-as/" target="_blank"><i data-mydop-link="" data-mydop-icon="" data-mydop-display-name="Icon" data-mydop-item="" class="fab fa-linkedin" style="font-size: 30px; display: inline-block; color: rgb(94,59,238);"></i></a>
-              <a aria-label="more" data-mydop-display-name="Dropdown" data-mydop-text="" class="nv-more display-text-2" style="color: rgb(0, 0, 0);" on="tap:smart_list.toggleClass(class='show_more'),more_arr.toggleClass(class='more_arr_top')">
-                More
-                <span id="more_arr"><i data-mydop-icon="" data-mydop-display-name="Icon" class="fas fa-angle-down" style="font-size: 20px;"></i></span>
-              </a>
+          <div class="ham_w">
+            <div id="hamb7" aria-label="menu icon" tabindex="0" role="button" on="tap:hamb7.toggleClass(class='mn_cls'),nv_m.toggleClass(class='nw_actv')">
+              <span style="background-color: rgb(15, 18, 33);"></span>
+              <span style="background-color: rgb(15, 18, 33);"></span>
+              <span style="background-color: rgb(15, 18, 33);"></span>
+            </div>
+          </div>
+          <div id="nv_m_c">
+            <div id="nv_m">
+              <div class="bg_tm" tabindex="0" role="button" on="tap:hamb7.toggleClass(class='mn_cls'),nv_m.toggleClass(class='nw_actv')"></div>
+              <div id="smart_list" class="nv_lst">
+                  <a href="/portfolio/portfolio"  data-mydop-display-name="Link"  data-mydop-link="" class="display-text-2" style="color: rgb(15, 18, 33);">Portfolio</a>
+                  <a href="/portfolio/projects/"  data-mydop-display-name="Link"  data-mydop-link="" class="display-text-2" style="color: rgb(15, 18, 33);">Projects</a>
+                <a  href="" target="_blank"  data-mydop-display-name="Link"  data-mydop-link="" class="display-text-2" style="color: rgb(15, 18, 33);">Resume</a>
+                <a href="/portfolio/contact/"  data-mydop-display-name="Link"  data-mydop-link="" class="display-text-2" style="color: rgb(15, 18, 33);">Contact</a>
+                <a href="https://www.linkedin.com/in/tea-as/" target="_blank"><i data-mydop-link="" data-mydop-icon="" data-mydop-display-name="Icon"  class="fab fa-linkedin" style="font-size: 30px; display: inline-block;  color: rgb(94,59,238);"></i></a>
+                <a aria-label="more" data-mydop-display-name="Dropdown"  class="nv-more display-text-2" style="color: rgb(0, 0, 0);" on="tap:smart_list.toggleClass(class='show_more'),more_arr.toggleClass(class='more_arr_top')">
+                  More
+                  <span id="more_arr"><i data-mydop-icon="" data-mydop-display-name="Icon" class="fas fa-angle-down" style="font-size: 20px;"></i></span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </header>
+      </header>
 
-    <section class="bgcc bgcover pad70-0 flexmiddle" data-mydop-display-name="banner - 1" style="min-height: 73vh; background-color: rgb(232, 255, 246);" id="1584400971058" data-mydop-background-color="">
-        <div class="container left">
-          <div class="row flexwrap" style="justify-content: center">
-            <div class="col-10 pad0" data-mydop-display-name="Content" data-mydop-background-color="" data-mydop-card="" data-mydop-item="" style="color: rgb(15, 18, 33);" amp-fx="fly-in-right">
-              <div amp-fx="fly-in-left">
-                  <h1 data-mydop-display-name="Title" data-mydop-text="" data-mydop-item="" style="letter-spacing:0px; line-height: 1.5; font-weight: 800;" class="display-title-1">
-                      Product Management <span style="color:rgb(94,59,238);font-weight: 800;line-height: 1.5;letter-spacing:0px; ">Projects</span>       </h1> 
-                  <p data-mydop-display-name="Text" data-mydop-text="" data-mydop-item="" style="font-weight: normal; line-height: 1.8; letter-spacing:1px; margin-top: 20px;" class="display-text-1"  >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                  <a data-mydop-display-name="Link" data-mydop-text="" data-mydop-link="" data-mydop-item="" data-mydop-background-color="" class="btn btn display-text-3" href="/contact/" style="background-color:rgb(94,59,238); margin-top: 30px; color: rgb(255, 255, 255);">Contact</a>
-                </div>
-            </div>
-            <div class="col-2 pad0"></div>
+
+      <section id="1">
+        <div class="container-fluid center">
+          <div class="row pad70-desk-20-mob" style="background-color: rgb(232,255,246); color: rgb(15,18,33); min-height: 50vh; max-width:1200px; margin: auto">
+              <div class="flexmiddle" style="max-width:1100px; margin: 80px auto">
+                <div>
+                <div class="col-12 left" data-mydop-display-name="Content"   amp-fx="fly-in-left" style="padding:5px">
+               
+                      <h1 data-mydop-display-name="Title" style="letter-spacing:0px; line-height: 1.5; font-weight: 800;" class="display-title-1 mart50m">
+                          Product Management <span style="color:rgb(94,59,238);font-weight: 800;line-height: 1.5;letter-spacing:0px; ">Projects</span> 
+                      </h1> 
+                      <p style="line-height: 1.8; margin: 20px auto 40px auto;" class="display-text-1">Page coming soon...</p>
+                      <a data-mydop-display-name="Link"  data-mydop-link=""   class="btn display-text-3" href="/contact/">Contact</a>
+                
+                  </div>  
+               </div>
+              </div>
           </div>
         </div>
-      </section>
+    </section>
 
-      <section class="pad70-0 flexmiddle" data-mydop-display-name="gallery - 15" style="" id="1706147423237" data-mydop-background-color="" data-mydop-id="102">
+
+
+
+
+      <section class="pad70-0 flexmiddle" data-mydop-display-name="gallery - 15" style="display:none" id="1706147423237" data-mydop-background-color="" data-mydop-id="102">
         <div class="container left">
           <div class="row" style="display: flex; justify-content: center; color:rgb(15,18,33); ">
             <div class="col-12 pad0" data-mydop-display-name="Content" data-mydop-card="" data-mydop-item="" data-mydop-background-color="">
@@ -11378,25 +11393,25 @@ a,span {
                   <amp-img data-mydop-display-name="Image" data-mydop-link="" data-mydop-item="" data-mydop-image="" src="https://dummyimage.com/750x500" layout="intrinsic" alt="" width="750" height="500"></amp-img>
                   <h2 data-mydop-display-name="Title" data-mydop-text="" data-mydop-item="" class="display-title-2" style="letter-spacing:0px; line-height: 1.5; font-weight: 700;">Project 1</h2>
                   <p data-mydop-display-name="Text" data-mydop-text="" data-mydop-item="" style="font-weight: normal; line-height: 1.8; letter-spacing:1px; margin-top: 20px;" class="display-text-1"  >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                  <a data-mydop-display-name="Link" data-mydop-text="" data-mydop-link="" data-mydop-item="" data-mydop-background-color="" class="btn btn display-text-3" href="/contact/" style="background-color:rgba(94,59,238,0.2); margin-top: 20px; color: rgb(255, 255, 255);">Coming soon...</a>
+                  <a data-mydop-display-name="Link" data-mydop-text="" data-mydop-link="" data-mydop-item="" data-mydop-background-color="" class="btn display-text-3" href="/contact/" style="background-color:rgba(94,59,238,0.2); margin-top: 20px; color: rgb(255, 255, 255);">Coming soon...</a>
                </div>
                <div class="col-6 padB50" data-mydop-item="" data-mydop-card="" data-mydop-display-name="Benefit 1" style="min-height:30vh; height: auto;" data-mydop-background-color="">
                 <amp-img data-mydop-display-name="Image" data-mydop-link="" data-mydop-item="" data-mydop-image="" src="https://dummyimage.com/750x500" layout="intrinsic" alt="" width="750" height="500"></amp-img>
                 <h2 data-mydop-display-name="Title" data-mydop-text="" data-mydop-item="" class="display-title-2" style="letter-spacing:0px; line-height: 1.5; font-weight: 700;">Project 1</h2>
                 <p data-mydop-display-name="Text" data-mydop-text="" data-mydop-item="" style="font-weight: normal; line-height: 1.8; letter-spacing:1px; margin-top: 20px;" class="display-text-1"  >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                <a data-mydop-display-name="Link" data-mydop-text="" data-mydop-link="" data-mydop-item="" data-mydop-background-color="" class="btn btn display-text-3" href="/contact/" style="background-color:rgba(94,59,238,0.2); margin-top: 20px; color: rgb(255, 255, 255);">Coming soon...</a>
+                <a data-mydop-display-name="Link" data-mydop-text="" data-mydop-link="" data-mydop-item="" data-mydop-background-color="" class="btn display-text-3" href="/contact/" style="background-color:rgba(94,59,238,0.2); margin-top: 20px; color: rgb(255, 255, 255);">Coming soon...</a>
              </div>
              <div class="col-6 padB50" data-mydop-item="" data-mydop-card="" data-mydop-display-name="Benefit 1" style="min-height:30vh; height: auto;" data-mydop-background-color="">
                 <amp-img data-mydop-display-name="Image" data-mydop-link="" data-mydop-item="" data-mydop-image="" src="https://dummyimage.com/750x500" layout="intrinsic" alt="" width="750" height="500"></amp-img>
                 <h2 data-mydop-display-name="Title" data-mydop-text="" data-mydop-item="" class="display-title-2" style="letter-spacing:0px; line-height: 1.5; font-weight: 700;">Project 1</h2>
                 <p data-mydop-display-name="Text" data-mydop-text="" data-mydop-item="" style="font-weight: normal; line-height: 1.8; letter-spacing:1px; margin-top: 20px;" class="display-text-1"  >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                <a data-mydop-display-name="Link" data-mydop-text="" data-mydop-link="" data-mydop-item="" data-mydop-background-color="" class="btn btn display-text-3" href="/contact/" style="background-color:rgba(94,59,238,0.2); margin-top: 20px; color: rgb(255, 255, 255);">Coming soon...</a>
+                <a data-mydop-display-name="Link" data-mydop-text="" data-mydop-link="" data-mydop-item="" data-mydop-background-color="" class="btn display-text-3" href="/contact/" style="background-color:rgba(94,59,238,0.2); margin-top: 20px; color: rgb(255, 255, 255);">Coming soon...</a>
              </div>
              <div class="col-6 padB50" data-mydop-item="" data-mydop-card="" data-mydop-display-name="Benefit 1" style="min-height:30vh; height: auto;" data-mydop-background-color="">
                 <amp-img data-mydop-display-name="Image" data-mydop-link="" data-mydop-item="" data-mydop-image="" src="https://dummyimage.com/750x500" layout="intrinsic" alt="" width="750" height="500"></amp-img>
                 <h2 data-mydop-display-name="Title" data-mydop-text="" data-mydop-item="" class="display-title-2" style="letter-spacing:0px; line-height: 1.5; font-weight: 700;">Project 1</h2>
                 <p data-mydop-display-name="Text" data-mydop-text="" data-mydop-item="" style="font-weight: normal; line-height: 1.8; letter-spacing:1px; margin-top: 20px;" class="display-text-1"  >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                <a data-mydop-display-name="Link" data-mydop-text="" data-mydop-link="" data-mydop-item="" data-mydop-background-color="" class="btn btn display-text-3" href="/contact/" style="background-color:rgba(94,59,238,0.2); margin-top: 20px; color: rgb(255, 255, 255);">Coming soon...</a>
+                <a data-mydop-display-name="Link" data-mydop-text="" data-mydop-link="" data-mydop-item="" data-mydop-background-color="" class="btn display-text-3" href="/contact/" style="background-color:rgba(94,59,238,0.2); margin-top: 20px; color: rgb(255, 255, 255);">Coming soon...</a>
              </div>
                
               </div>
@@ -11406,34 +11421,35 @@ a,span {
       </section>
 
       <footer id="100">
-        <div class="left">
-          <div class="row flexmiddle pad70-desk-20-mob" style="background-color: rgb(249,249,252); min-height: 60vh; max-width:1200px; margin: auto">
-            <div>
-              <div class="col-1"></div>
-              <div class="col-5 left" data-mydop-display-name="Content" data-mydop-item="" data-mydop-card="" style="color:rgb(15, 18, 33)">
-                <div amp-fx="fly-in-left">
-                  <h2 data-mydop-display-name="Title" data-mydop-text="" data-mydop-item="" style="letter-spacing:0px; line-height: 1.5; font-weight: 700;" class="display-title-2">Get in <span style="color:rgb(94,59,238);font-weight: 700;line-height: 1.5;letter-spacing:0px; ">Touch</span></h2>
-                  <p data-mydop-display-name="Text" data-mydop-text="" data-mydop-item="" style="font-weight: normal; line-height: 1.8; letter-spacing:1px; margin-top: 20px;" class="display-text-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+        <div class="container-fluid center">
+            <div class="row pad70-desk-20-mob" style="background-color: rgb(249,249,252); color: rgb(15,18,33); min-height: 50vh; max-width:1200px; margin: auto">
+                <div class="flexmiddle" style="max-width:1100px; margin: 80px auto">
+                  <div>
+                    <div class="col-7 padd0m10 left" data-mydop-display-name="Content" style="color:rgb(15, 18, 33)">
+                          <h2 data-mydop-display-name="Title" style="letter-spacing:0px; line-height: 1.5; font-weight: 700;" class="display-title-2">Get in <span style="color:rgb(94,59,238);font-weight: 700;line-height: 1.5;letter-spacing:0px;">Touch</span></h2>
+                          <p style="line-height: 1.8; max-width: 400px; margin: 20px auto 40px 0px;" class="display-text-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="col-2" style="min-width: 300px;"></div>
+                    <div class="col-3 padd0m10 left" data-mydop-display-name="Content"  data-mydop-card="">
+                         <h3 data-mydop-display-name="Title" style="letter-spacing:0px; line-height: 1.5; font-weight: 700; margin-top: 20px;" class="display-title-3">Contact Info</h3>
+                          <p style="line-height: 1.8; margin: 20px auto;" class="display-text-1">asatianitea@gmail.com</p>
+                          <a data-mydop-display-name="Link" style="line-height: 1.8;" class="display-text-1" href="https://www.linkedin.com/in/tea-as/" target="_blank" aria-label="link to Linkedin">linkedin.com/in/tea-as/</a>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="col-1"></div>
-              <div class="col-5 left" data-mydop-display-name="Content" data-mydop-item="" data-mydop-card="">
-                <div amp-fx="fade-in">
-                  <h3 data-mydop-display-name="Title" data-mydop-text="" data-mydop-item="" style="letter-spacing:0px; line-height: 1.5; font-weight: 700; margin-top: 20px;" class="display-title-3">Contact Info</h3>
-                  <p data-mydop-display-name="Text" data-mydop-text="" data-mydop-item="" style="font-weight: normal; line-height: 1.8; letter-spacing:1px; margin-top: 20px;" class="display-text-1"><i data-mydop-display-name="Icon" data-mydop-link="" data-mydop-icon="" class="fas fa-phone" aria-label="icon" style="font-size:32px;margin-right:20px; color: rgb(94,59,238); display:none "></i>asatianitea@gmail.com</p>
-                  <a data-mydop-display-name="Link" data-mydop-text="" data-mydop-item="" style="font-weight: normal; line-height: 1.8; letter-spacing:1px; margin-top: 5px;" class="display-text-1" href="https://www.linkedin.com/in/tea-as/" target="_blank" aria-label="link to Linkedin"><i data-mydop-display-name="Icon" data-mydop-link="" data-mydop-icon="" class="fab fa-linkedin" aria-label="icon" style="font-size:32px; margin-right:20px; color: rgb(94,59,238);display:none"></i>linkedin.com/in/tea-as/</a>
-                </div>
-              </div>
             </div>
-          </div>
+         
+        
           <div class="row flexmiddle pad70-desk-20-mob" style="background-color: rgb(249,249,252); max-width:1200px; margin: auto; padding-bottom: 10px;">
-            <div class="col-12 pad0 center" data-mydop-display-name="Links" data-mydop-card="" data-mydop-item="" style="color: rgb(15, 18, 33);">
-              <a class="pad10 display-text-4" data-mydop-display-name="Link" data-mydop-item="" data-mydop-link="" data-mydop-text="" href="/portfolio/" style="display: inline-block; letter-spacing: 2px; margin-top: 0px; margin-bottom: 0px;">Portfolio</a>
-              <a class="pad10 display-text-4" data-mydop-display-name="Link" data-mydop-item="" data-mydop-link="" data-mydop-text="" href="/projects/" style="display: inline-block; letter-spacing: 2px;">Projects</a>
-              <a class="pad10 display-text-4" data-mydop-display-name="Link" data-mydop-item="" data-mydop-link="" data-mydop-text="" href="/mydop-files/Screen Shot 2024-01-22 at 11.39.51 AM.png"style="display: inline-block; letter-spacing: 2px; margin-top: 0px; margin-bottom: 0px;">Resume</a>
-              <a class="pad10 display-text-4" data-mydop-display-name="Link" data-mydop-item="" data-mydop-link="" data-mydop-text="" href="/contact/" style="display: inline-block; letter-spacing: 2px;">Contact</a>
+            <div class="col-12 pad0 center" data-mydop-display-name="Links" style="color: rgb(15, 18, 33);">
+              <a class="pad10 display-text-4" data-mydop-display-name="Link"  data-mydop-link=""  href="/portfolio/" style="display: inline-block; letter-spacing: 2px; margin-top: 0px; margin-bottom: 0px;">Portfolio</a>
+              <a class="pad10 display-text-4" data-mydop-display-name="Link"  data-mydop-link=""  href="/projects/" style="display: inline-block; letter-spacing: 2px;">Projects</a>
+              <a class="pad10 display-text-4" data-mydop-display-name="Link"  data-mydop-link=""  href="/mydop-files/Screen Shot 2024-01-22 at 11.39.51 AM.png"style="display: inline-block; letter-spacing: 2px; margin-top: 0px; margin-bottom: 0px;">Resume</a>
+              <a class="pad10 display-text-4" data-mydop-display-name="Link"  data-mydop-link=""  href="/contact/" style="display: inline-block; letter-spacing: 2px;">Contact</a>
              </div>
            </div>
+        </div>
         </div>
       </footer>
     <amp-user-notification id="my-notification" class="cookie-notification" layout="nodisplay">
