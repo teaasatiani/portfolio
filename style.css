@@ -1,13 +1,3 @@
-/*! * Font Awesome Free 5.12.0 by @fontawesome - https://fontawesome.com 
-    * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
-    */
-        
-      /*!
- * Font Awesome Free 5.12.0 by @fontawesome - https://fontawesome.com
- * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- */
-
-
 
 .fa,
 .fab,
@@ -6342,6 +6332,13 @@ body {
     padding-top: 13px;
 }
 
+.subheader
+{ line-height: 1.8; font-weight: 300; max-width: 800px; margin: 20px auto 40px 0px;}
+
+.padd140m70 {
+    padding-top: 140px;
+}
+
 @media only screen and (max-width: 768px) {
     .col-1 {
         width: 100%;
@@ -6427,9 +6424,18 @@ body {
         width: 83.33%;
     }
 
-    .col-11m {
+    .subheader
+     {max-width:97%}
+    
+     .col-11m {
         width: 91.66%;
     }
+
+    .padd140m70 {
+        padding-top: 70px;
+    }
+
+    .pad70d0m { padding-top: 0px; padding-bottom: 0px; }
 
     .padt0m {
         padding-top: 0px;
@@ -6605,6 +6611,22 @@ body {
 
     .marb100m {
         margin-bottom: 100px;
+    }
+
+    .nmart20m {
+        margin-top: -20px;
+    }
+    
+    .nmart50m {
+        margin-top: -50px;
+    }
+
+    .nmart80m {
+        margin-top: -80px;
+    }
+
+    .nmart300m {
+        margin-top: -300px;
     }
 }
 
@@ -6801,6 +6823,12 @@ body {
 
 .padb100 {
     padding-bottom: 100px;
+}
+
+.pad70d0m { padding-top: 70px; padding-bottom: 70px;}
+
+.pad40-0 {
+    padding: 40px 0;
 }
 
 .pad70-0 {
@@ -11144,7 +11172,6 @@ amp-selector [option][selected] {
         
         /*** end css template ***/ /*** start css site ***/
         
-        
         body {
     --main-color-1: #343a40;
     --main-bg-color: #fff;
@@ -11157,11 +11184,11 @@ amp-selector [option][selected] {
     --title-font: 'Julius Sans One', sans-serif;
     --text-font: 'roboto', sans-serif;
     --main-btn-radius: 30px;
-    --title-1-desktop: 60px 'Public Sans', sans-serif;
-    --title-1-mobile: 35px 'Public Sans', sans-serif;
-    --title-2-desktop: 37px 'Public Sans', sans-serif;
+    --title-1-desktop: 40px 'Public Sans', sans-serif;
+    --title-1-mobile: 32px 'Public Sans', sans-serif;
+    --title-2-desktop: 35px 'Public Sans', sans-serif;
     --title-2-mobile: 28px 'Public Sans', sans-serif;
-    --title-3-desktop: 18px 'Public Sans', sans-serif;
+    --title-3-desktop: 16px 'Public Sans', sans-serif;
     --title-3-mobile: 22px 'Public Sans', sans-serif;
     --title-4-desktop: 15px 'Public Sans', sans-serif;
     --title-4-mobile: 15px 'Public Sans', sans-serif;
@@ -11192,7 +11219,9 @@ a,span {
 }
 
 
-.btn{font-weight: 500;}
+.btn {font-weight: 500;
+    padding: 4px 40px;
+border-radius: 12px;}
 
         /*** end css site ***/ 
         
@@ -11201,22 +11230,11 @@ a,span {
 
 
 @media only screen and (min-width: 768px) {
-
-    .pad70-desk-20-mob {
-        padding: 70px;}
-    
-        .padd0m10 {padding: 0px}
-        .padd10m0 {padding: 10px}
-        .padd25m10 {padding: 25px}
-   
+    .bg-desk-gr-mob-wh {background-color:rgb(231,255,245);}
+   .mart-desk-100-m-n500 {margin-top: 100px;}
 }
 
 @media only screen and (max-width: 767px) {
-    .pad70-desk-20-mob {
-        padding: 40px 10px;}
-    
-        .padd0m10 {padding: 10px}
-        .padd10m0 {padding: 0px}
-        .padd25m10 {padding: 10px}
-   
+    .bg-desk-gr-mob-wh {background-color:rgb(255,255,255);}
+    .mart-desk-100-m-n500 {margin-top: -500px;}
 }
