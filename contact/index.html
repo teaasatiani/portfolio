@@ -285,21 +285,17 @@
                                     placeholder="Phone Number"
                                     class="display-text-2"
                                     style="background-color: #fff; color: rgb(0, 0, 0); height: 45px; padding: 10px; border: 1px solid #ddd; cursor: pointer; margin: 2% 0px;"/>
-
-                                <label for="purpose" class="pad0 display-text-2" style="margin-bottom: 10px; letter-spacing: normal; color: rgb(0, 0, 0);">Purpose for contact</label>
-                                <select
-                                    data-type="text"
+                                
+                                <input
                                     id="purpose"
+                                    type="text"
                                     name="purpose"
-                                    required=""
-                                    class="display-text-2"
-                                    style="width: 100%; background-color: #fff; color: rgb(0, 0, 0); height: 45px; padding: 10px; border: 1px solid #ddd; cursor: pointer; margin: 2% 0px; max-width: 370px;">
-                                    <option value="Empty" disabled="" selected="" class="display-text-2">---</option>
-                                    <option value="Option1" class="display-text-2">Job Offer</option>
-                                    <option value="Option2" class="display-text-2">Collaboration</option>
-                                    <option value="Option3" class="display-text-2">Small Project</option>
-                                    <option value="Option4" class="display-text-2">Other</option>
-                                </select>
+                                    required="" 
+                                    aria-label="Purpose for contact" 
+                                    placeholder="Purpose for contact" 
+                                    class="display-text-4" 
+                                    style="background-color: #f5f5f5; color: rgb(0, 0, 0); height: 45px; padding: 10px; border: 1px solid #ddd; cursor: pointer; margin: 2% 0px;">
+         
                                 <button type="submit" value="Submit" class="btn display-text-3" style="margin: 20px auto 20px auto;">Connect</button>
                              </div>
                             <amp-recaptcha-input layout="nodisplay" name="reCAPTCHA_body_key" data-sitekey="6LcZ9cMUAAAAAIfAjNOKmgz2ZvtOtBu_CtmDbfV5" data-action="site"></amp-recaptcha-input>
