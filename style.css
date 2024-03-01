@@ -11230,11 +11230,11 @@ border-radius: 12px;}
 
 
 @media only screen and (min-width: 768px) {
-    .bg-desk-gr-mob-wh {background-color:rgb(231,255,245);}
+    .bg-desk-gr-mob-wh {background-color:rgb(231,255,245); min-height: 900px;}
    .mart-desk-100-m-n500 {margin-top: 100px;}
 }
 
 @media only screen and (max-width: 767px) {
-    .bg-desk-gr-mob-wh {background-color:rgb(255,255,255);}
+    .bg-desk-gr-mob-wh {background-color:rgb(255,255,255); }
     .mart-desk-100-m-n500 {margin-top: -500px;}
 }
