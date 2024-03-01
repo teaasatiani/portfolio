@@ -234,21 +234,49 @@
                     </h2>
                     <p class="display-text-1 subheader">I will get back to you as soon as I can.</p>
                     <div class="col-6 pad0" style="margin-top: -30px;">
-                       <form
-  action-xhr="https://formspree.io/f/xnqevwae"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit" >Send</button>
-</form>
+
+    <form method="post" class="center" target="_top" action-xhr="https://apps-api.dopweb.com//prod/contact/send" data-form-title="Dopweb Form">
+        <input data-mydop-form="siteName" type="hidden" name="siteName" value="new-hestia">
+        <input data-mydop-form="pageName" type="hidden" name="pageName" value="contact">
+        <br>
+        <div submit-success="" class="center" style="margin-bottom: 15px;">
+          <template data-form-alert="" data-mydop-display-name="Success message" data-mydop-text="" type="amp-mustache" class="display-text-3">
+            <span style="color: #5cab53; padding: 5px; font-family: 'Dosis'; font-size: 20px;">Thank You! We will contact you shortly.</span>
+          </template>
+        </div>
+        <div submit-error="" class="center" style="margin-bottom:15px;">
+          <template data-form-alert="" data-mydop-display-name="Failure message" data-mydop-text="" type="amp-mustache" class="display-text-3">
+            <span style="background-color: rgb(220, 53, 69); color: rgb(0, 0, 0); padding: 5px">Failed!</span>
+          </template>
+        </div>
+        <div class="form-inputs left">
+          <div class="col-12 mar0 pad0" data-mydop-display-name="Name" data-mydop-item="" data-mydop-card="" style="">
+            <label data-mydop-display-name="Text" data-mydop-text="" for="first-name" class="pad0 display-text-4" style="color: rgb(106, 106, 106);"></label>
+            <input id="" type="text" name="" required="" aria-label="" placeholder="Name" data-mydop-input="" data-mydop-background-color="" class="display-text-4" style="background-color: #f5f5f5; color: rgb(0, 0, 0); height: 45px; padding: 10px; border: 1px solid #ddd; cursor: pointer; margin: 2% 0px;">
+          </div>
+          <div class="col-12 mar0 pad0" data-mydop-display-name="Name" data-mydop-item="" data-mydop-card="" style="" id="1708577959538">
+            <label data-mydop-display-name="Text" data-mydop-text="" for="first-name" class="pad0 display-text-4" style="color: rgb(106, 106, 106);"></label>
+            <input id="" type="email" name="" required="" aria-label="" placeholder="Email" data-mydop-input="" data-mydop-background-color="" class="display-text-4" style="background-color: #f5f5f5; color: rgb(0, 0, 0); height: 45px; padding: 10px; border: 1px solid #ddd; cursor: pointer; margin: 2% 0px;">
+          </div>
+          <div class="col-12 mar0 pad0" data-mydop-display-name="Name" data-mydop-item="" data-mydop-card="" style="" id="1708577958852">
+            <label data-mydop-display-name="Text" data-mydop-text="" for="first-name" class="pad0 display-text-4" style="color: rgb(106, 106, 106);"></label>
+            <input id="" type="number" name="" required="" aria-label="" placeholder="Phone Number" data-mydop-input="" data-mydop-background-color="" class="display-text-4" style="background-color: #f5f5f5; color: rgb(0, 0, 0); height: 45px; padding: 10px; border: 1px solid #ddd; cursor: pointer; margin: 2% 0px;">
+          </div>
+          <div class="col-12 mar0 pad0" data-mydop-display-name="Number" data-mydop-item="" data-mydop-card="" style="" id="1675188248916">
+            <label data-mydop-display-name="Text" data-mydop-text="" for="first-name" class="pad0 display-text-4" style="color: rgb(106, 106, 106); margin-bottom: 10px;">Purpose</label>
+            <select data-type="text" id="ROOM" name="Room" required="" style="width: 100%; background-color: #f5f5f5; color: rgb(0, 0, 0); height: 45px; padding: 10px; border: 1px solid #ddd; cursor: pointer; margin: 2% 0px;">
+              <option value="Empty" disabled="" selected="">---</option>
+              <option value="Option1">Luxury Double Room Suite, Attic Floor</option>
+              <option value="Option2">Luxury Family Double Room Suite</option>
+              <option value="Option3">Luxury Double Room Suite</option>
+              <option value="Option4">Luxury Single Room Suite</option>
+              <option value="Option5">Luxury Single Room Art Suite</option>
+            </select>
+          </div>
+          <button data-mydop-display-name="Button" data-mydop-text="" data-mydop-background-color="" class="btn display-text-4" style="background-color: rgb(193, 155, 118); color: rgb(255, 255, 255); margin: 20px 0px; font-size: 18px; line-height: normal; padding: 15px 35px;">MAKE RESERVATION</button>
+        </div>
+        <amp-recaptcha-input layout="nodisplay" name="reCAPTCHA_body_key" data-sitekey="6LcZ9cMUAAAAAIfAjNOKmgz2ZvtOtBu_CtmDbfV5" data-action="site"></amp-recaptcha-input>
+      </form>
                     </div>
                 </div>
                 <div class="col-2"></div>
