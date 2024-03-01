@@ -6436,7 +6436,10 @@ body {
     .padd140m70 {
         padding-top: 70px;
     }
-    .padd140m100  {padding-top: 100px;}
+    
+    .padd140m100  {
+        padding-top: 100px;
+    }
 
     .pad70d0m { padding-top: 0px; padding-bottom: 0px; }
 
