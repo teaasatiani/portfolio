@@ -7692,7 +7692,8 @@ header {
 
 #nv_m,
 #nv_m.nw_actv {
-    transition: transform 0.5s ease, opacity ease 0.2s;
+    transition: none;
+
 }
 
 #nv_m_c #nv_m.nw_actv {
