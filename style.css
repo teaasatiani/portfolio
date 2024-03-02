@@ -6068,6 +6068,7 @@ body {
     align-items: center;
     background-color:rgb(94,59,238);
     color: rgb(255, 255, 255);
+    text-align: center;
 }
 
 .btn.disabled,
